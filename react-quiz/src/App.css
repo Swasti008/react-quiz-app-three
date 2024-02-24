@@ -1,0 +1,153 @@
+#root {
+  margin: 0 auto;
+  padding: 5rem;
+  text-align: center;
+}
+body{
+  background-color: rgb(49, 0, 128);
+}
+.home{
+  height: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color:white ;
+}
+.home button{
+ height: 3vw;
+ width: 16vw;
+ background-color: rgb(33, 166, 33);
+ border-radius: 3em;
+ color: white;
+ font-size: 15px;
+}
+.QuizComponent{
+  background-color: white;
+  padding: 20px;
+  width: 1000px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-left: 8px solid rgb(106, 100, 228) ;
+}
+.QuizComponent h1,h3{
+  color: black;
+}
+.QuizComponent p{
+  text-align: left;
+  color: black;
+}
+.options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  color: white;
+}
+.options .choose {
+  flex: 0 0 98%;
+  height: 30px;
+  background-color: rgb(22, 185, 255);
+  border-radius: 2em;
+  padding: 10px;
+  text-align: center;
+  &:hover{
+    background-color: rgba(47, 130, 238, 0.847);
+  }
+
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.buttons .button1{
+background-color: rgb(8, 109, 226);
+padding: 10px;
+border: none;
+width: 80px;
+cursor: pointer;
+&:hover{
+  background-color: rgba(47, 130, 238, 0.847);
+}
+}
+.buttons .button2{
+background-color: green;
+padding: 10px;
+border: none;
+width: 80px;
+cursor: pointer;
+&:hover{
+  background-color: rgba(24, 210, 111, 0.847);
+}
+}
+.buttons .button3{
+background-color: red;
+padding: 10px;
+border: none;
+width: 80px;
+cursor: pointer;
+&:hover{
+  background-color: rgba(238, 76, 76, 0.847);
+}
+}
+.result{
+  background-color: white;
+  width: 1000px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 20px;
+  border-left: 8px solid rgb(106, 100, 228) ;
+}
+.ResultComponent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result h2,h3,p{
+  color: black;
+}
+.ResultComponent h1{
+  color: green;
+  font-size: 45px;
+}
+.ResultComponent h3{
+  font-size: 40px;
+  color: blue;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.info p{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.buttons .play{
+  height: 40px;
+  width: 160px;
+  background-color: aliceblue;
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  &:hover{
+    background-color: rgba(144, 92, 192, 0.867);
+    color: white;
+  }
+}
+.buttons .back{
+  height: 40px;
+  width: 160px;
+  background-color: aliceblue;
+  color: rgb(15, 88, 37);
+  border: 2px solid rgb(10, 85, 33);
+  &:hover{
+    background-color: rgba(17, 117, 47, 0.842);
+    color: white;
+  }
+}
